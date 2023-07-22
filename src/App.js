@@ -24,7 +24,7 @@ function App() {
             <a href="#Projects" className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out">Projects</a>
 
             <a href="#Contact" className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out">Contact</a>
-            <a href="#Download" className="ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 rounded-xl hover:border-gray-100 duration-100 ease-in-out">Download</a>
+            
           </div>
 
           <motion.div whileTap={{ scale: 0.5 }} className="block md:hidden ml-auto cursor-pointer" onClick={() => setIsActive(!isActive)}>
@@ -47,7 +47,7 @@ function App() {
 
             <a href="#Contact" className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out" onClick={() => setIsActive(false)}>Contact</a>
 
-            <motion.a whileTap={{scale : 0.8}} href="#Download" className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 rounded-xl hover:border-gray-100 duration-100 ease-in-out" onClick={() => setIsActive(false)}>Download</motion.a>
+            
             </motion.div>
           )}
         </div>
