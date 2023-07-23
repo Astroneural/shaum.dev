@@ -55,8 +55,8 @@ function App() {
       <div className="relative" id="home">
         <Spline scene="https://prod.spline.design/I5tG6MqGBBuVdmXf/scene.splinecode" />
         <div className="absolute bottom-20 w-full flex justify-center items-center">
-            <div className="shadow-md p-4 flex items-center justify-center bg-zinc-900 rounded-3xl" href="#about">
-              <p className="text-white">Click to Continue</p>
+            <div className="shadow-md p-4 flex items-center justify-center bg-zinc-900 rounded-3xl">
+              <a href="#about hover:text-slate-100 cursor-pointer duration-100 ease-in-out" className="text-white">Click to Continue</p>
             </div>
           </div>
       </div>
